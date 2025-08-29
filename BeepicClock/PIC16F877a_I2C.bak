@@ -1,0 +1,96 @@
+/*
+ * File: Header file to use I2C with PIC16F877A
+ * Author: B.Aswinth Raj
+ * Created on 5 May, 2018, 7:24 PM
+ * Modified to support  18F2550
+*/
+
+//PIN 18 -> RB1 -> SCL
+//PIN 23 -> RB0 ->SDA
+
+
+void I2C_Hold();
+void I2C_End();
+void I2C_Initialize(const unsigned long feq_K) //Begin IIC as master
+{
+  RB0 = 1;  RB1 = 1;  //Set SDA and SCL pins as input pins
+  
+  SSPCON1  = 0b00101000;    //pg84/234 
+  SSPCON2 = 0b00000000;    //pg85/234
+  
+  //SSPADD = (_XTAL_FREQ/(4*feq_K*100))-1; //Setting Clock Speed pg99/234
+  SSPADD = 20;
+  SSPSTAT = 0b00000000;    //pg83/234
+}
+void I2C_Restart(void){
+	I2C_Hold();
+	SSPCON2bits.RSEN = 1;
+	while(SSPCON2bits.RSEN);
+}
+void I2C_Hold()
+{
+    while (   (SSPCON2 & 0b00011111)    ||    (SSPSTAT & 0b00000100)   ) ; //check the bis on registers to make sure the IIC is not in progress
+}
+
+void I2C_Begin()
+{
+  I2C_Hold();  //Hold the program is I2C is busy  
+  SSPCON2bits.SEN = 1;     //Begin IIC pg85/234
+  while(SSPCON2bits.SEN);
+}
+
+
+void I2C_End()
+{
+  I2C_Hold(); //Hold the program is I2C is busy  
+  SSPCON2bits.PEN = 1;    //End IIC pg85/234
+  while(SSPCON2bits.PEN );
+}
+
+void I2C_Write(unsigned data)
+{
+  I2C_Hold(); //Hold the program is I2C is busy 
+  SSPBUF = data;         //pg82/234
+}
+void I2C_Close(void){
+	SSPCON1 &= 0xDF;
+}
+unsigned short I2C_Read(unsigned short ack)
+{
+  unsigned short incoming;
+  I2C_Hold();
+  SSPCON2bits.RCEN = 1;
+  
+  I2C_Hold();
+  incoming = SSPBUF;      //get the data saved in SSPBUF
+  
+  I2C_Hold();
+  SSPCON2bits.ACKDT = (ack)?0:1;    //check if ack bit received  
+  SSPCON2bits.ACKEN = 1;          //pg 85/234
+  
+  return incoming;
+}
+
+/*unsigned char I2C_ReadByte(unsigned char acknowledge){
+	unsigned char buffer_I2C = 0;
+	I2C_Hold();
+	if(((SSPCON1&0x0F)==0x08) || ((SSPCON1&0x0F)==0x0B)){ //Master mode only
+	   SSPCON2bits.RCEN = 1;           // Enable master for 1 byte reception
+	   while (!SSPSTATbits.BF);        // Wait until byte received
+	   buffer_I2C = SSPBUF;            // Read byte
+	}
+	I2C_Hold();
+	if(acknowledge == 1)
+	  {
+	   SSPCON2bits.ACKDT = 0;
+	   SSPCON2bits.ACKEN = 1;
+	   while(SSPCON2bits.ACKEN);
+	  }
+	else
+	  {
+	   SSPCON2bits.ACKDT = 1;
+	   SSPCON2bits.ACKEN = 1;
+	   while(SSPCON2bits.ACKEN);
+	  }
+	return (buffer_I2C);         // Return with read byte
+}*/
