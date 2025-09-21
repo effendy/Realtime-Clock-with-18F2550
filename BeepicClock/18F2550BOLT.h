@@ -356,6 +356,8 @@ void createChar(unsigned int location, unsigned int charmap[]) {
 }
 /************ low level data pushing commands **********/
 // write either command or data, with automatic 4/8-bit selection
+// mode = 0 => command
+// mode = 1 => data
 void send(unsigned int value, unsigned int mode) {
   //digitalWrite(_rs_pin, mode);
   RC6=mode; delay_us(50);  //RS= mode

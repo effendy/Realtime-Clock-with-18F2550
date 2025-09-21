@@ -1,6 +1,8 @@
-Warning[2054] C:\BeepicClock\ds3231.c 197 : suspicious pointer conversion
-Warning[2054] C:\BeepicClock\ds3231.c 200 : suspicious pointer conversion
-Warning[2054] C:\BeepicClock\ds3231.c 203 : suspicious pointer conversion
-Warning[2054] C:\BeepicClock\ds3231.c 217 : suspicious pointer conversion
-Warning[2054] C:\BeepicClock\ds3231.c 239 : suspicious pointer conversion
-Warning[2054] C:\BeepicClock\ds3231.c 257 : suspicious pointer conversion
+Warning[2054] C:\BeepicClock\ds3231.c 198 : suspicious pointer conversion
+Warning[2054] C:\BeepicClock\ds3231.c 201 : suspicious pointer conversion
+Warning[2054] C:\BeepicClock\ds3231.c 204 : suspicious pointer conversion
+Warning[2054] C:\BeepicClock\ds3231.c 223 : suspicious pointer conversion
+Warning[2054] C:\BeepicClock\ds3231.c 245 : suspicious pointer conversion
+Warning[2054] C:\BeepicClock\ds3231.c 263 : suspicious pointer conversion
+Warning[2054] C:\BeepicClock\ds3231.c 293 : suspicious pointer conversion
+Warning[2054] C:\BeepicClock\ds3231.c 298 : suspicious pointer conversion

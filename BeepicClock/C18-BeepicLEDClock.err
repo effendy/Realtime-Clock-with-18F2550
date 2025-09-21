@@ -1,2 +1,11 @@
-Warning[2054] C:\BeepicClock\C18-BeepicLEDClock.c 85 : suspicious pointer conversion
-Warning[2054] C:\BeepicClock\C18-BeepicLEDClock.c 89 : suspicious pointer conversion
+Warning[2054] C:\BeepicClock\C18-BeepicLEDClock.c 59 : suspicious pointer conversion
+Warning[2054] C:\BeepicClock\C18-BeepicLEDClock.c 65 : suspicious pointer conversion
+Warning[2054] C:\BeepicClock\C18-BeepicLEDClock.c 71 : suspicious pointer conversion
+Warning[2058] C:\BeepicClock\C18-BeepicLEDClock.c 94 : call of function without prototype
+Warning[2058] C:\BeepicClock\C18-BeepicLEDClock.c 95 : call of function without prototype
+Warning[2058] C:\BeepicClock\C18-BeepicLEDClock.c 96 : call of function without prototype
+Warning[2058] C:\BeepicClock\C18-BeepicLEDClock.c 101 : call of function without prototype
+Warning[2058] C:\BeepicClock\C18-BeepicLEDClock.c 102 : call of function without prototype
+Warning[2058] C:\BeepicClock\C18-BeepicLEDClock.c 103 : call of function without prototype
+Warning[2058] C:\BeepicClock\C18-BeepicLEDClock.c 118 : call of function without prototype
+Warning[2058] C:\BeepicClock\C18-BeepicLEDClock.c 119 : call of function without prototype

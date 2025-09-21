@@ -30,6 +30,8 @@ file_002=.
 file_003=.
 file_004=.
 file_005=.
+file_006=.
+file_007=.
 [GENERATED_FILES]
 file_000=no
 file_001=no
@@ -37,6 +39,8 @@ file_002=no
 file_003=no
 file_004=no
 file_005=no
+file_006=no
+file_007=no
 [OTHER_FILES]
 file_000=no
 file_001=no
@@ -44,13 +48,17 @@ file_002=no
 file_003=no
 file_004=no
 file_005=no
+file_006=no
+file_007=no
 [FILE_INFO]
 file_000=C18-BeepicLEDClock.c
 file_001=ds3231.c
 file_002=my_i2c.c
 file_003=18F2550BOLT.h
-file_004=Button.h
-file_005=rm18f2550.lkr
+file_004=ds3231.h
+file_005=my_i2c.h
+file_006=LiquidCrystal.h
+file_007=rm18f2550.lkr
 [SUITE_INFO]
 suite_guid={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
 suite_state=

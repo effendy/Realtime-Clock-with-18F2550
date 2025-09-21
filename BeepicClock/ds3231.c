@@ -41,6 +41,7 @@ I2C_Stop();
 return(byte1);
 }
 
+
 //==============================================================================
 //Set the time in 24 hr format hour, minute, second
 //==============================================================================
@@ -201,7 +202,12 @@ sprintf(byte2,(const far rom char*)"%02d", byte0);
 *p = byte2[0]; p++; *p = byte2[1]; p++; *p = ':'; p++;
 byte0 = BCDToDecimal(DS3231_GetInfo(SECONDS));
 sprintf(byte2,(const far rom char*)"%02d", byte0);
-*p = byte2[0]; p++; *p = byte2[1]; p++; *p = NULL;
+*p = byte2[0]; p++; *p = byte2[1]; p++; 
+  switch(byte1){
+    case 2: *p = 'A'; p++; *p = 'M'; p++; break;
+    case 3: *p = 'P'; p++; *p = 'M'; p++; break;
+  }
+  *p = NULL;
 return(byte1);
 }
 
@@ -256,6 +262,42 @@ default:break;} *p = '.'; p++; *p = ' '; p++;
 byte0 = BCDToDecimal(DS3231_GetInfo(YEAR));
 sprintf(byte1,(const far rom char*)"%02d", byte0);
 *p = byte1[0]; p++; *p = byte1[1]; p++; *p = NULL;
+}
+
+
+//=================================
+// returns chip temperature
+// Temperature is stored in hundredths C (output value of "3125" equals 31.25 8C).
+void DS3231_Get_Temperature(unsigned char *p)
+{
+  unsigned char t_msb, t_lsb;
+  unsigned char c_temp;
+  unsigned char c_ret[5];
+  I2C_Start();
+  I2C_WriteByte(DS3231_ADDRESS);
+  I2C_WriteByte(DS3231_REG_TEMP_MSB);
+  I2C_RepeatedStart();
+  I2C_WriteByte(DS3231_ADDRESS | 0x01);
+  t_msb = I2C_ReadByte(1);
+  t_lsb = I2C_ReadByte(0);
+  I2C_Stop();
+
+  /*c_temp = t_msb << 8 | t_lsb & 0xC0;
+
+  if(t_msb & 0x80)
+    c_temp |= 0xFC00;
+
+  c_temp =  c_temp * 256;
+	*/
+  //t_msb = BCDToDecimal(t_msb);
+  sprintf(c_ret,(const far rom char*)"%02d", t_msb);
+  *p = c_ret[0]; p++; *p = c_ret[1]; p++; *p = '.'; p++;
+  //t_lsb = BCDToDecimal(t_lsb);
+  t_lsb = (t_lsb >> 6) & 0x03;
+  t_lsb = t_lsb * 25;
+  sprintf(c_ret,(const far rom char*)"%02d", t_lsb);
+  *p = c_ret[0]; p++; *p = c_ret[1]; p++; *p = NULL;
+  
 }
 
 

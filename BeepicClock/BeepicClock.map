@@ -1,5 +1,5 @@
 MPLINK 4.48, Linker
-Linker Map File - Created Sun Aug 17 15:16:18 2025
+Linker Map File - Created Sun Sep 21 16:43:06 2025
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -7,69 +7,68 @@ Linker Map File - Created Sun Aug 17 15:16:18 2025
                _entry_scn       code   0x000000    program   0x000006
   _RESET_INTERRUPT_VECTOR       code   0x001000    program   0x000006
                    .cinit    romdata   0x002000    program   0x00000e
-           .code_ds3231.o       code   0x00200e    program   0x0010c4
-.code_C18-BeepicLEDClock.o       code   0x0030d2    program   0x000fcc
-         .code_vfprintf.o       code   0x00409e    program   0x000c22
-           .code_my_i2c.o       code   0x004cc0    program   0x0000fc
-          .code_sprintf.o       code   0x004dbc    program   0x0000ac
-               _cinit_scn       code   0x004e68    program   0x00009e
-             .code_putc.o       code   0x004f06    program   0x000084
-          .code_fxm3232.o       code   0x004f8a    program   0x000070
-                   STRING       code   0x004ffa    program   0x000066
-                     PROG       code   0x005060    program   0x00005a
-         .code_fxd3232u.o       code   0x0050ba    program   0x000048
-                    CTYPE       code   0x005102    program   0x000024
-              D1KTCYXCODE       code   0x005126    program   0x000020
-                    .code       code   0x005146    program   0x000020
-             _startup_scn       code   0x005166    program   0x00001c
-                    STDIO       code   0x005182    program   0x00001c
-         .code_fxd0808u.o       code   0x00519e    program   0x00001c
-              D10TCYXCODE       code   0x0051ba    program   0x000016
-      .romdata_vfprintf.o    romdata   0x0051d0    program   0x000011
-             .stringtable    romdata   0x0051e1    program   0x000005
-       .code__user_putc.o       code   0x0051e6    program   0x000002
-           .code___init.o       code   0x0051e8    program   0x000002
-          .idata_putc.o_i    romdata   0x0051ea    program   0x000000
-          .romdata_putc.o    romdata   0x0051ea    program   0x000000
-       .romdata_fxm3232.o    romdata   0x0051ea    program   0x000000
-       .idata_fxm3232.o_i    romdata   0x0051ea    program   0x000000
-    .idata__user_putc.o_i    romdata   0x0051ea    program   0x000000
-      .romdata_fxd3232u.o    romdata   0x0051ea    program   0x000000
-    .romdata__user_putc.o    romdata   0x0051ea    program   0x000000
-         .idata_c018i.o_i    romdata   0x0051ea    program   0x000000
-         .romdata_c018i.o    romdata   0x0051ea    program   0x000000
-.idata_C18-BeepicLEDClock.o_i    romdata   0x0051ea    program   0x00002a
-.romdata_C18-BeepicLEDClock.o    romdata   0x0051ea    program   0x000000
-        .idata_ds3231.o_i    romdata   0x0051ea    program   0x000000
-        .romdata_ds3231.o    romdata   0x0051ea    program   0x000000
-        .idata_my_i2c.o_i    romdata   0x0051ea    program   0x000000
-        .romdata_my_i2c.o    romdata   0x0051ea    program   0x000000
-      .idata_fxd0808u.o_i    romdata   0x0051ea    program   0x000000
-      .romdata_fxd0808u.o    romdata   0x0051ea    program   0x000000
-        .idata___init.o_i    romdata   0x0051ea    program   0x000000
-        .romdata___init.o    romdata   0x0051ea    program   0x000000
-       .idata_sprintf.o_i    romdata   0x0051ea    program   0x000000
-       .romdata_sprintf.o    romdata   0x0051ea    program   0x000000
-      .idata_vfprintf.o_i    romdata   0x0051ea    program   0x000000
-      .idata_fxd3232u.o_i    romdata   0x0051ea    program   0x000000
-            .code_c018i.o       code   0x005214    program   0x000000
+           .code_ds3231.o       code   0x00200e    program   0x0012d0
+.code_C18-BeepicLEDClock.o       code   0x0032de    program   0x0010f0
+         .code_vfprintf.o       code   0x0043ce    program   0x000c22
+           .code_my_i2c.o       code   0x004ff0    program   0x0000fc
+          .code_sprintf.o       code   0x0050ec    program   0x0000ac
+               _cinit_scn       code   0x005198    program   0x00009e
+             .code_putc.o       code   0x005236    program   0x000084
+          .code_fxm3232.o       code   0x0052ba    program   0x000070
+                   STRING       code   0x00532a    program   0x000066
+                     PROG       code   0x005390    program   0x00005a
+         .code_fxd3232u.o       code   0x0053ea    program   0x000048
+                    CTYPE       code   0x005432    program   0x000024
+              D1KTCYXCODE       code   0x005456    program   0x000020
+                    .code       code   0x005476    program   0x000020
+             _startup_scn       code   0x005496    program   0x00001c
+                    STDIO       code   0x0054b2    program   0x00001c
+         .code_fxd0808u.o       code   0x0054ce    program   0x00001c
+              D10TCYXCODE       code   0x0054ea    program   0x000016
+      .romdata_vfprintf.o    romdata   0x005500    program   0x000011
+             .stringtable    romdata   0x005511    program   0x000005
+       .code__user_putc.o       code   0x005516    program   0x000002
+           .code___init.o       code   0x005518    program   0x000002
+          .idata_putc.o_i    romdata   0x00551a    program   0x000000
+          .romdata_putc.o    romdata   0x00551a    program   0x000000
+       .romdata_fxm3232.o    romdata   0x00551a    program   0x000000
+       .idata_fxm3232.o_i    romdata   0x00551a    program   0x000000
+    .idata__user_putc.o_i    romdata   0x00551a    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x00551a    program   0x000000
+    .romdata__user_putc.o    romdata   0x00551a    program   0x000000
+         .idata_c018i.o_i    romdata   0x00551a    program   0x000000
+         .romdata_c018i.o    romdata   0x00551a    program   0x000000
+.idata_C18-BeepicLEDClock.o_i    romdata   0x00551a    program   0x00002a
+.romdata_C18-BeepicLEDClock.o    romdata   0x00551a    program   0x000000
+        .idata_ds3231.o_i    romdata   0x00551a    program   0x000000
+        .romdata_ds3231.o    romdata   0x00551a    program   0x000000
+        .idata_my_i2c.o_i    romdata   0x00551a    program   0x000000
+        .romdata_my_i2c.o    romdata   0x00551a    program   0x000000
+      .idata_fxd0808u.o_i    romdata   0x00551a    program   0x000000
+      .romdata_fxd0808u.o    romdata   0x00551a    program   0x000000
+        .idata___init.o_i    romdata   0x00551a    program   0x000000
+        .romdata___init.o    romdata   0x00551a    program   0x000000
+       .idata_sprintf.o_i    romdata   0x00551a    program   0x000000
+       .romdata_sprintf.o    romdata   0x00551a    program   0x000000
+      .idata_vfprintf.o_i    romdata   0x00551a    program   0x000000
+      .idata_fxd3232u.o_i    romdata   0x00551a    program   0x000000
+            .code_c018i.o       code   0x005544    program   0x000000
                 MATH_DATA      udata   0x000000       data   0x000014
                  .tmpdata      udata   0x000014       data   0x000007
                 DELAYDAT1      udata   0x00001b       data   0x000001
-.udata_C18-BeepicLEDClock.o      udata   0x000060       data   0x000069
-.idata_C18-BeepicLEDClock.o      idata   0x0000c9       data   0x00002a
-           .udata_c018i.o      udata   0x0000f3       data   0x00000a
-         .idata_sprintf.o      idata   0x0000fd       data   0x000000
-        .udata_vfprintf.o      udata   0x0000fd       data   0x000000
-        .idata_vfprintf.o      idata   0x0000fd       data   0x000000
-        .udata_fxd3232u.o      udata   0x0000fd       data   0x000000
-        .idata_fxd3232u.o      idata   0x0000fd       data   0x000000
-         .udata_fxm3232.o      udata   0x0000fd       data   0x000000
-         .idata_fxm3232.o      idata   0x0000fd       data   0x000000
-            .udata_putc.o      udata   0x0000fd       data   0x000000
-            .idata_putc.o      idata   0x0000fd       data   0x000000
-      .udata__user_putc.o      udata   0x0000fd       data   0x000000
+.udata_C18-BeepicLEDClock.o      udata   0x000060       data   0x000073
+.idata_C18-BeepicLEDClock.o      idata   0x0000d3       data   0x00002a
       .idata__user_putc.o      idata   0x0000fd       data   0x000000
+      .udata__user_putc.o      udata   0x0000fd       data   0x000000
+            .idata_putc.o      idata   0x0000fd       data   0x000000
+            .udata_putc.o      udata   0x0000fd       data   0x000000
+         .idata_fxm3232.o      idata   0x0000fd       data   0x000000
+         .udata_fxm3232.o      udata   0x0000fd       data   0x000000
+        .idata_fxd3232u.o      idata   0x0000fd       data   0x000000
+        .udata_fxd3232u.o      udata   0x0000fd       data   0x000000
+        .idata_vfprintf.o      idata   0x0000fd       data   0x000000
+        .udata_vfprintf.o      udata   0x0000fd       data   0x000000
+         .idata_sprintf.o      idata   0x0000fd       data   0x000000
          .udata_sprintf.o      udata   0x0000fd       data   0x000000
           .idata___init.o      idata   0x0000fd       data   0x000000
           .udata___init.o      udata   0x0000fd       data   0x000000
@@ -80,6 +79,7 @@ Linker Map File - Created Sun Aug 17 15:16:18 2025
           .idata_ds3231.o      idata   0x0000fd       data   0x000000
           .udata_ds3231.o      udata   0x0000fd       data   0x000000
            .idata_c018i.o      idata   0x0000fd       data   0x000000
+           .udata_c018i.o      udata   0x000200       data   0x00000a
                    .stack      udata   0x000240       data   0x0001c0
             SFR_UNBANKED0      udata   0x000f66       data   0x00009a
 
@@ -90,192 +90,196 @@ Linker Map File - Created Sun Aug 17 15:16:18 2025
                            ---------   ---------      
                             0x000000    0x000005      
                             0x001000    0x001005      
-                            0x002000    0x005213      
-            12832 out of 28952 program addresses used, program memory utilization is 44%
+                            0x002000    0x005543      
+            13648 out of 28952 program addresses used, program memory utilization is 47%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-             BCDToDecimal   0x003068    program     extern C:\BeepicClock\ds3231.c  
-                    D10_1   0x0051ca    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                     D10x   0x0051c2    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                    D1K_1   0x005132    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-                     D1Kx   0x005130    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+             BCDToDecimal   0x003274    program     extern C:\BeepicClock\ds3231.c  
+                    D10_1   0x0054fa    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                     D10x   0x0054f2    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                    D1K_1   0x005462    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+                     D1Kx   0x005460    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
               DS3231_AMPM   0x002384    program     extern C:\BeepicClock\ds3231.c  
            DS3231_AddData   0x002146    program     extern C:\BeepicClock\ds3231.c  
-       DS3231_GetCalendar   0x002838    program     extern C:\BeepicClock\ds3231.c  
-           DS3231_GetHour   0x002746    program     extern C:\BeepicClock\ds3231.c  
+       DS3231_GetCalendar   0x0028b2    program     extern C:\BeepicClock\ds3231.c  
+           DS3231_GetHour   0x0027c0    program     extern C:\BeepicClock\ds3231.c  
            DS3231_GetInfo   0x002048    program     extern C:\BeepicClock\ds3231.c  
            DS3231_GetTime   0x002526    program     extern C:\BeepicClock\ds3231.c  
+   DS3231_Get_Temperature   0x0030e2    program     extern C:\BeepicClock\ds3231.c  
           DS3231_HourMode   0x0023ce    program     extern C:\BeepicClock\ds3231.c  
            DS3231_SetDate   0x0020ee    program     extern C:\BeepicClock\ds3231.c  
            DS3231_SetInfo   0x00200e    program     extern C:\BeepicClock\ds3231.c  
            DS3231_SetTime   0x002098    program     extern C:\BeepicClock\ds3231.c  
-             DecimalToBCD   0x003092    program     extern C:\BeepicClock\ds3231.c  
-              Delay10TCYx   0x0051ba    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-              Delay1KTCYx   0x005126    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-                EnableLCD   0x003286    program     extern C:\BeepicClock\18F2550BOLT.h
-               EnableLCD2   0x0032ac    program     extern C:\BeepicClock\18F2550BOLT.h
-                 FXD0808U   0x00519e    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808u.c
-                 FXD3232U   0x0050ba    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
-                 FXM1616S   0x005060    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-                  FXM3232   0x004f8a    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
-                   GetBot   0x003bec    program     extern C:\BeepicClock\18F2550BOLT.h
-                I2C_Close   0x004d1e    program     extern C:\BeepicClock\my_i2c.c  
-                 I2C_Idle   0x004d06    program     extern C:\BeepicClock\my_i2c.c  
-                 I2C_Init   0x004cc0    program     extern C:\BeepicClock\my_i2c.c  
-             I2C_ReadByte   0x004d22    program     extern C:\BeepicClock\my_i2c.c  
-        I2C_RepeatedStart   0x004cf2    program     extern C:\BeepicClock\my_i2c.c  
-                I2C_Start   0x004ce8    program     extern C:\BeepicClock\my_i2c.c  
-                 I2C_Stop   0x004cfc    program     extern C:\BeepicClock\my_i2c.c  
-            I2C_WriteByte   0x004d72    program     extern C:\BeepicClock\my_i2c.c  
-            LiquidCrystal   0x0032d2    program     extern C:\BeepicClock\18F2550BOLT.h
-              PrintString   0x003bb0    program     extern C:\BeepicClock\18F2550BOLT.h
-                   PutLCD   0x003af8    program     extern C:\BeepicClock\18F2550BOLT.h
-                  Set7Seg   0x00315c    program     extern C:\BeepicClock\18F2550BOLT.h
-                   SetBot   0x003cd4    program     extern C:\BeepicClock\18F2550BOLT.h
-               TSIGN1616A   0x0050ac    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-                   WrtBot   0x003d28    program     extern C:\BeepicClock\18F2550BOLT.h
-                   _2jEnd   0x00504a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-        _D10TCYXCODE_000A   0x0051c4    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000C   0x0051c6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000E   0x0051c8    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D1KTCYXCODE_0010   0x005136    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-        _D1KTCYXCODE_0016   0x00513c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-       ___return_lbl00000   0x004ff8    program     static                          
-       ___return_lbl00000   0x0051b8    program     static                          
+             DecimalToBCD   0x00329e    program     extern C:\BeepicClock\ds3231.c  
+              Delay10TCYx   0x0054ea    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+              Delay1KTCYx   0x005456    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+                EnableLCD   0x003492    program     extern C:\BeepicClock\18F2550BOLT.h
+               EnableLCD2   0x0034b8    program     extern C:\BeepicClock\18F2550BOLT.h
+                 FXD0808U   0x0054ce    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808u.c
+                 FXD3232U   0x0053ea    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                 FXM1616S   0x005390    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+                  FXM3232   0x0052ba    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
+                   GetBot   0x003df8    program     extern C:\BeepicClock\18F2550BOLT.h
+                I2C_Close   0x00504e    program     extern C:\BeepicClock\my_i2c.c  
+                 I2C_Idle   0x005036    program     extern C:\BeepicClock\my_i2c.c  
+                 I2C_Init   0x004ff0    program     extern C:\BeepicClock\my_i2c.c  
+             I2C_ReadByte   0x005052    program     extern C:\BeepicClock\my_i2c.c  
+        I2C_RepeatedStart   0x005022    program     extern C:\BeepicClock\my_i2c.c  
+                I2C_Start   0x005018    program     extern C:\BeepicClock\my_i2c.c  
+                 I2C_Stop   0x00502c    program     extern C:\BeepicClock\my_i2c.c  
+            I2C_WriteByte   0x0050a2    program     extern C:\BeepicClock\my_i2c.c  
+            LiquidCrystal   0x0034de    program     extern C:\BeepicClock\18F2550BOLT.h
+              PrintString   0x003dbc    program     extern C:\BeepicClock\18F2550BOLT.h
+                   PutLCD   0x003d04    program     extern C:\BeepicClock\18F2550BOLT.h
+                  Set7Seg   0x003368    program     extern C:\BeepicClock\18F2550BOLT.h
+                   SetBot   0x003ee0    program     extern C:\BeepicClock\18F2550BOLT.h
+               TSIGN1616A   0x0053dc    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+                   WrtBot   0x003f34    program     extern C:\BeepicClock\18F2550BOLT.h
+                   _2jEnd   0x00537a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+        _D10TCYXCODE_000A   0x0054f4    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x0054f6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x0054f8    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D1KTCYXCODE_0010   0x005466    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+        _D1KTCYXCODE_0016   0x00546c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+       ___return_lbl00000   0x0054e8    program     static                          
+       ___return_lbl00000   0x005430    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00000   0x005100    program     static                          
-       ___return_lbl00001   0x005180    program     static                          
-       ___return_lbl00002   0x004f04    program     static                          
+       ___return_lbl00000   0x005328    program     static                          
+       ___return_lbl00001   0x0054b0    program     static                          
+       ___return_lbl00002   0x005234    program     static                          
        ___return_lbl00101   0x001004    program     static                          
-                   __init   0x0051e8    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
-                   __pa_0   0x0049de    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_1   0x0049e6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_10   0x004a9a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_11   0x004aa8    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_12   0x004abe    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_13   0x004ad8    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_14   0x004af0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_15   0x004b00    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_16   0x004b16    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_17   0x004b28    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_18   0x004b3a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_19   0x004b44    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_2   0x0049f0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_20   0x004b54    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_21   0x004b64    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_22   0x004b74    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_23   0x004b80    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_24   0x004b8e    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_25   0x004b96    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_26   0x004ba0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_27   0x004baa    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_28   0x004bb2    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_29   0x004bc0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_3   0x0049fa    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_30   0x004bdc    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_31   0x004bf6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_32   0x004c10    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_33   0x004c28    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_34   0x004c32    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_35   0x004c40    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_36   0x004c48    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_37   0x004c52    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_38   0x004c62    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_39   0x004c70    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_4   0x004a12    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_40   0x004c7c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_41   0x004c88    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_42   0x004c90    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_43   0x004c9a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_44   0x004ca0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_45   0x004caa    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_46   0x004cb6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_5   0x004a26    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_6   0x004a42    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_7   0x004a4c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_8   0x004a58    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_9   0x004a7a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-               __string_0   0x0051e1    program     static C:\BeepicClock\ds3231.c  
-              __tmplbl_42   0x004b74    program     static                          
-              __tmplbl_43   0x0049bc    program     static                          
-              __tmplbl_44   0x0049a2    program     static                          
-              __tmplbl_85   0x0040f4    program     static                          
-            __zero_memory   0x005146    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                _do_cinit   0x004e68    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                   __init   0x005518    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+                   __pa_0   0x004d0e    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_1   0x004d16    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_10   0x004dca    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_11   0x004dd8    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_12   0x004dee    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_13   0x004e08    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_14   0x004e20    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_15   0x004e30    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_16   0x004e46    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_17   0x004e58    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_18   0x004e6a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_19   0x004e74    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_2   0x004d20    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_20   0x004e84    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_21   0x004e94    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_22   0x004ea4    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_23   0x004eb0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_24   0x004ebe    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_25   0x004ec6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_26   0x004ed0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_27   0x004eda    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_28   0x004ee2    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_29   0x004ef0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_3   0x004d2a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_30   0x004f0c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_31   0x004f26    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_32   0x004f40    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_33   0x004f58    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_34   0x004f62    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_35   0x004f70    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_36   0x004f78    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_37   0x004f82    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_38   0x004f92    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_39   0x004fa0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_4   0x004d42    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_40   0x004fac    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_41   0x004fb8    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_42   0x004fc0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_43   0x004fca    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_44   0x004fd0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_45   0x004fda    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_46   0x004fe6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_5   0x004d56    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_6   0x004d72    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_7   0x004d7c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_8   0x004d88    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_9   0x004daa    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+               __string_0   0x005511    program     static C:\BeepicClock\ds3231.c  
+              __tmplbl_42   0x004ea4    program     static                          
+              __tmplbl_43   0x004cec    program     static                          
+              __tmplbl_44   0x004cd2    program     static                          
+              __tmplbl_85   0x004424    program     static                          
+            __zero_memory   0x005476    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                _do_cinit   0x005198    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                   _false   0x0050fc    program     static                          
+                   _false   0x00542c    program     static                          
                    _reset   0x001000    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                 _startup   0x005166    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-              _usart_putc   0x005182    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
-               _user_putc   0x0051e6    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\_user_putc.c
-               autoscroll   0x003560    program     extern C:\BeepicClock\18F2550BOLT.h
-                    begin   0x0036ba    program     extern C:\BeepicClock\18F2550BOLT.h
-                    blink   0x0034ea    program     extern C:\BeepicClock\18F2550BOLT.h
-                    clear   0x003424    program     extern C:\BeepicClock\18F2550BOLT.h
-                  command   0x003892    program     extern C:\BeepicClock\18F2550BOLT.h
-                compare_l   0x00515c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                copy_loop   0x004eda    program     static                          
-            copy_one_byte   0x004ee0    program     static                          
-               createChar   0x0038f2    program     extern C:\BeepicClock\18F2550BOLT.h
-                   cursor   0x0034ae    program     extern C:\BeepicClock\18F2550BOLT.h
-                 debounce   0x003dcc    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                debounce2   0x003e50    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                 delay_ms   0x0030d2    program     extern C:\BeepicClock\18F2550BOLT.h
-                  display   0x003472    program     extern C:\BeepicClock\18F2550BOLT.h
-                     done   0x004f04    program     static                          
-             done_copying   0x004eee    program     static                          
-                  endloop   0x0051b4    program     static                          
-                      fin   0x003c52    program     extern C:\BeepicClock\18F2550BOLT.h
-                     home   0x00343c    program     extern C:\BeepicClock\18F2550BOLT.h
-                     init   0x003352    program     extern C:\BeepicClock\18F2550BOLT.h
-                init_bolt   0x003220    program     extern C:\BeepicClock\18F2550BOLT.h
-                  isdigit   0x005102    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-                     jEnd   0x005014    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                     jEnd   0x00504c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x005034    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x00500a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                   jMatch   0x005122    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-                 jNoMatch   0x005124    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-              leftToRight   0x003524    program     extern C:\BeepicClock\18F2550BOLT.h
-                     loop   0x0050c8    program     static                          
-                     loop   0x005192    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
-                     loop   0x0051a6    program     static                          
-                     loop   0x005176    program     static                          
-                   loop_h   0x005154    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                   loop_l   0x00515e    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                     main   0x003ed4    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                  microsw   0x00323e    program     extern C:\BeepicClock\18F2550BOLT.h
-             noAutoscroll   0x00357e    program     extern C:\BeepicClock\18F2550BOLT.h
-                  noBlink   0x0034cc    program     extern C:\BeepicClock\18F2550BOLT.h
-                 noCursor   0x003490    program     extern C:\BeepicClock\18F2550BOLT.h
-                noDisplay   0x003454    program     extern C:\BeepicClock\18F2550BOLT.h
-                    print   0x003b22    program     extern C:\BeepicClock\18F2550BOLT.h
-              pulseEnable   0x003a28    program     extern C:\BeepicClock\18F2550BOLT.h
-                     putc   0x004f06    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
-               readeeprom   0x003dac    program     extern C:\BeepicClock\18F2550BOLT.h
-              rightToLeft   0x003542    program     extern C:\BeepicClock\18F2550BOLT.h
-                      row   0x003c8e    program     extern C:\BeepicClock\18F2550BOLT.h
-                 s_digits   0x0051d0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-            s_put_n_chars   0x00409e    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-        scrollDisplayLeft   0x003508    program     extern C:\BeepicClock\18F2550BOLT.h
-       scrollDisplayRight   0x003516    program     extern C:\BeepicClock\18F2550BOLT.h
-                     send   0x0039a4    program     extern C:\BeepicClock\18F2550BOLT.h
-                setCursor   0x00359c    program     extern C:\BeepicClock\18F2550BOLT.h
-            setRowOffsets   0x00367a    program     extern C:\BeepicClock\18F2550BOLT.h
-                  sprintf   0x004dbc    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
-                   strlen   0x004ffa    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x005016    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                     test   0x004e82    program     static                          
-                 vfprintf   0x0040ca    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                    write   0x0038be    program     extern C:\BeepicClock\18F2550BOLT.h
-               write4bits   0x003a4e    program     extern C:\BeepicClock\18F2550BOLT.h
-               write8bits   0x003ae6    program     extern C:\BeepicClock\18F2550BOLT.h
-              writeeeprom   0x003d60    program     extern C:\BeepicClock\18F2550BOLT.h
-               zero_block   0x005154    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 _startup   0x005496    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+              _usart_putc   0x0054b2    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
+               _user_putc   0x005516    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\_user_putc.c
+               autoscroll   0x00376c    program     extern C:\BeepicClock\18F2550BOLT.h
+                    begin   0x0038c6    program     extern C:\BeepicClock\18F2550BOLT.h
+                    blink   0x0036f6    program     extern C:\BeepicClock\18F2550BOLT.h
+                    clear   0x003630    program     extern C:\BeepicClock\18F2550BOLT.h
+                  command   0x003a9e    program     extern C:\BeepicClock\18F2550BOLT.h
+                compare_l   0x00548c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                copy_loop   0x00520a    program     static                          
+            copy_one_byte   0x005210    program     static                          
+               createChar   0x003afe    program     extern C:\BeepicClock\18F2550BOLT.h
+                   cursor   0x0036ba    program     extern C:\BeepicClock\18F2550BOLT.h
+                 debounce   0x003fd8    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                debounce2   0x00405c    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                 delay_ms   0x0032de    program     extern C:\BeepicClock\18F2550BOLT.h
+                  display   0x00367e    program     extern C:\BeepicClock\18F2550BOLT.h
+              displayDate   0x0040e0    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
+              displayTemp   0x004152    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
+              displayTime   0x004116    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                     done   0x005234    program     static                          
+             done_copying   0x00521e    program     static                          
+                  endloop   0x0054e4    program     static                          
+                      fin   0x003e5e    program     extern C:\BeepicClock\18F2550BOLT.h
+                     home   0x003648    program     extern C:\BeepicClock\18F2550BOLT.h
+                     init   0x00355e    program     extern C:\BeepicClock\18F2550BOLT.h
+                init_bolt   0x00342c    program     extern C:\BeepicClock\18F2550BOLT.h
+                  isdigit   0x005432    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                     jEnd   0x005344    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                     jEnd   0x00537c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x00533a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                    jLoop   0x005364    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                   jMatch   0x005452    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x005454    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+              leftToRight   0x003730    program     extern C:\BeepicClock\18F2550BOLT.h
+                     loop   0x0054d6    program     static                          
+                     loop   0x0054c2    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
+                     loop   0x0053f8    program     static                          
+                     loop   0x0054a6    program     static                          
+                   loop_h   0x005484    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   loop_l   0x00548e    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     main   0x00418a    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                  microsw   0x00344a    program     extern C:\BeepicClock\18F2550BOLT.h
+             noAutoscroll   0x00378a    program     extern C:\BeepicClock\18F2550BOLT.h
+                  noBlink   0x0036d8    program     extern C:\BeepicClock\18F2550BOLT.h
+                 noCursor   0x00369c    program     extern C:\BeepicClock\18F2550BOLT.h
+                noDisplay   0x003660    program     extern C:\BeepicClock\18F2550BOLT.h
+                    print   0x003d2e    program     extern C:\BeepicClock\18F2550BOLT.h
+              pulseEnable   0x003c34    program     extern C:\BeepicClock\18F2550BOLT.h
+                     putc   0x005236    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
+               readeeprom   0x003fb8    program     extern C:\BeepicClock\18F2550BOLT.h
+              rightToLeft   0x00374e    program     extern C:\BeepicClock\18F2550BOLT.h
+                      row   0x003e9a    program     extern C:\BeepicClock\18F2550BOLT.h
+                 s_digits   0x005500    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+            s_put_n_chars   0x0043ce    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+        scrollDisplayLeft   0x003714    program     extern C:\BeepicClock\18F2550BOLT.h
+       scrollDisplayRight   0x003722    program     extern C:\BeepicClock\18F2550BOLT.h
+                     send   0x003bb0    program     extern C:\BeepicClock\18F2550BOLT.h
+                setCursor   0x0037a8    program     extern C:\BeepicClock\18F2550BOLT.h
+            setRowOffsets   0x003886    program     extern C:\BeepicClock\18F2550BOLT.h
+                  sprintf   0x0050ec    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
+                   strlen   0x00532a    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x005346    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                     test   0x0051b2    program     static                          
+                 vfprintf   0x0043fa    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                    write   0x003aca    program     extern C:\BeepicClock\18F2550BOLT.h
+               write4bits   0x003c5a    program     extern C:\BeepicClock\18F2550BOLT.h
+               write8bits   0x003cf2    program     extern C:\BeepicClock\18F2550BOLT.h
+              writeeeprom   0x003f6c    program     extern C:\BeepicClock\18F2550BOLT.h
+               zero_block   0x005484    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                    ADCON0   0x000fc2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                ADCON0bits   0x000fc2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                    ADCON1   0x000fc1       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
@@ -356,7 +360,7 @@ Linker Map File - Created Sun Aug 17 15:16:18 2025
                  LATCbits   0x000f8b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                    LVDCON   0x000fd2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                LVDCONbits   0x000fd2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                     Mode   0x0000ed       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                     Mode   0x0000f7       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
                    OSCCON   0x000fd3       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                OSCCONbits   0x000fd3       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                   OSCTUNE   0x000f9b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
@@ -417,8 +421,8 @@ Linker Map File - Created Sun Aug 17 15:16:18 2025
                STATUSbits   0x000fd8       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                    STKPTR   0x000ffc       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                STKPTRbits   0x000ffc       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                   Switch   0x0000eb       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                  Switch2   0x0000ec       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                   Switch   0x0000f5       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                  Switch2   0x0000f6       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
                     T0CON   0x000fd5       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                 T0CONbits   0x000fd5       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     T1CON   0x000fcd       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
@@ -452,6 +456,7 @@ Linker Map File - Created Sun Aug 17 15:16:18 2025
                     TXREG   0x000fad       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     TXSTA   0x000fac       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                 TXSTAbits   0x000fac       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              Temperature   0x0000ce       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
                     UADDR   0x000f6e       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                 UADDRbits   0x000f6e       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                      UCFG   0x000f6f       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
@@ -540,47 +545,47 @@ Linker Map File - Created Sun Aug 17 15:16:18 2025
                   __tmp_0   0x000014       data     static C:\BeepicClock\ds3231.c  
                   __tmp_0   0x000014       data     static C:\BeepicClock\C18-BeepicLEDClock.c
                _data_pins   0x000066       data     extern C:\BeepicClock\LiquidCrystal.h
-                    _date   0x0000bf       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                     _day   0x0000bd       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                    _date   0x0000c4       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                     _day   0x0000c2       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
           _displaycontrol   0x000078       data     extern C:\BeepicClock\LiquidCrystal.h
          _displayfunction   0x000076       data     extern C:\BeepicClock\LiquidCrystal.h
              _displaymode   0x00007a       data     extern C:\BeepicClock\LiquidCrystal.h
               _enable_pin   0x000064       data     extern C:\BeepicClock\LiquidCrystal.h
-                   _hours   0x0000bb       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                   _hours   0x0000c0       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
              _initialized   0x00007c       data     extern C:\BeepicClock\LiquidCrystal.h
-                  _millis   0x0000c5       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                 _minutes   0x0000b9       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                   _month   0x0000c1       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                  _millis   0x0000ca       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                 _minutes   0x0000be       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                   _month   0x0000c6       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
                 _numlines   0x00007e       data     extern C:\BeepicClock\LiquidCrystal.h
              _row_offsets   0x000080       data     extern C:\BeepicClock\LiquidCrystal.h
                   _rs_pin   0x000060       data     extern C:\BeepicClock\LiquidCrystal.h
                   _rw_pin   0x000062       data     extern C:\BeepicClock\LiquidCrystal.h
-                 _seconds   0x0000b7       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                    _year   0x0000c3       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                 _seconds   0x0000bc       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                    _year   0x0000c8       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
                        aa   0x000088       data     extern C:\BeepicClock\18F2550BOLT.h
-                      asc   0x0000d9       data     extern C:\BeepicClock\18F2550BOLT.h
+                      asc   0x0000e3       data     extern C:\BeepicClock\18F2550BOLT.h
                        bb   0x000089       data     extern C:\BeepicClock\18F2550BOLT.h
                       bot   0x000092       data     extern C:\BeepicClock\18F2550BOLT.h
                     boton   0x000091       data     extern C:\BeepicClock\18F2550BOLT.h
                        cc   0x00008a       data     extern C:\BeepicClock\18F2550BOLT.h
-                curr_byte   0x0000f6       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-               curr_entry   0x0000f8       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 data_ptr   0x0000fa       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                curr_byte   0x000203       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x000205       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x000207       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                        dd   0x00008b       data     extern C:\BeepicClock\18F2550BOLT.h
-            debounceDelay   0x0000ee       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+            debounceDelay   0x0000f8       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
                        ee   0x00008c       data     extern C:\BeepicClock\18F2550BOLT.h
                        ff   0x00008d       data     extern C:\BeepicClock\18F2550BOLT.h
-                hour_mode   0x0000ac       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                hour_mode   0x0000b1       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
                         i   0x00009b       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                      key   0x0000c9       data     extern C:\BeepicClock\18F2550BOLT.h
+                      key   0x0000d3       data     extern C:\BeepicClock\18F2550BOLT.h
                       led   0x0000a1       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
                       now   0x00009d       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                     prom   0x0000f3       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     prom   0x000200       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                       rim   0x0000a2       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                    state   0x0000ef       data     static C:\BeepicClock\C18-BeepicLEDClock.c
-                    state   0x0000f1       data     static C:\BeepicClock\C18-BeepicLEDClock.c
-                 thisChar   0x0000e9       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                     time   0x0000ad       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                    state   0x0000f9       data     static C:\BeepicClock\C18-BeepicLEDClock.c
+                    state   0x0000fb       data     static C:\BeepicClock\C18-BeepicLEDClock.c
+                 thisChar   0x0000f3       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                     time   0x0000b2       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
                        xx   0x00008e       data     extern C:\BeepicClock\18F2550BOLT.h
                        yy   0x00008f       data     extern C:\BeepicClock\18F2550BOLT.h
                        zz   0x000090       data     extern C:\BeepicClock\18F2550BOLT.h
@@ -602,172 +607,176 @@ Linker Map File - Created Sun Aug 17 15:16:18 2025
               DS3231_AMPM   0x002384    program     extern C:\BeepicClock\ds3231.c  
           DS3231_HourMode   0x0023ce    program     extern C:\BeepicClock\ds3231.c  
            DS3231_GetTime   0x002526    program     extern C:\BeepicClock\ds3231.c  
-           DS3231_GetHour   0x002746    program     extern C:\BeepicClock\ds3231.c  
-       DS3231_GetCalendar   0x002838    program     extern C:\BeepicClock\ds3231.c  
-             BCDToDecimal   0x003068    program     extern C:\BeepicClock\ds3231.c  
-             DecimalToBCD   0x003092    program     extern C:\BeepicClock\ds3231.c  
-                 delay_ms   0x0030d2    program     extern C:\BeepicClock\18F2550BOLT.h
-                  Set7Seg   0x00315c    program     extern C:\BeepicClock\18F2550BOLT.h
-                init_bolt   0x003220    program     extern C:\BeepicClock\18F2550BOLT.h
-                  microsw   0x00323e    program     extern C:\BeepicClock\18F2550BOLT.h
-                EnableLCD   0x003286    program     extern C:\BeepicClock\18F2550BOLT.h
-               EnableLCD2   0x0032ac    program     extern C:\BeepicClock\18F2550BOLT.h
-            LiquidCrystal   0x0032d2    program     extern C:\BeepicClock\18F2550BOLT.h
-                     init   0x003352    program     extern C:\BeepicClock\18F2550BOLT.h
-                    clear   0x003424    program     extern C:\BeepicClock\18F2550BOLT.h
-                     home   0x00343c    program     extern C:\BeepicClock\18F2550BOLT.h
-                noDisplay   0x003454    program     extern C:\BeepicClock\18F2550BOLT.h
-                  display   0x003472    program     extern C:\BeepicClock\18F2550BOLT.h
-                 noCursor   0x003490    program     extern C:\BeepicClock\18F2550BOLT.h
-                   cursor   0x0034ae    program     extern C:\BeepicClock\18F2550BOLT.h
-                  noBlink   0x0034cc    program     extern C:\BeepicClock\18F2550BOLT.h
-                    blink   0x0034ea    program     extern C:\BeepicClock\18F2550BOLT.h
-        scrollDisplayLeft   0x003508    program     extern C:\BeepicClock\18F2550BOLT.h
-       scrollDisplayRight   0x003516    program     extern C:\BeepicClock\18F2550BOLT.h
-              leftToRight   0x003524    program     extern C:\BeepicClock\18F2550BOLT.h
-              rightToLeft   0x003542    program     extern C:\BeepicClock\18F2550BOLT.h
-               autoscroll   0x003560    program     extern C:\BeepicClock\18F2550BOLT.h
-             noAutoscroll   0x00357e    program     extern C:\BeepicClock\18F2550BOLT.h
-                setCursor   0x00359c    program     extern C:\BeepicClock\18F2550BOLT.h
-            setRowOffsets   0x00367a    program     extern C:\BeepicClock\18F2550BOLT.h
-                    begin   0x0036ba    program     extern C:\BeepicClock\18F2550BOLT.h
-                  command   0x003892    program     extern C:\BeepicClock\18F2550BOLT.h
-                    write   0x0038be    program     extern C:\BeepicClock\18F2550BOLT.h
-               createChar   0x0038f2    program     extern C:\BeepicClock\18F2550BOLT.h
-                     send   0x0039a4    program     extern C:\BeepicClock\18F2550BOLT.h
-              pulseEnable   0x003a28    program     extern C:\BeepicClock\18F2550BOLT.h
-               write4bits   0x003a4e    program     extern C:\BeepicClock\18F2550BOLT.h
-               write8bits   0x003ae6    program     extern C:\BeepicClock\18F2550BOLT.h
-                   PutLCD   0x003af8    program     extern C:\BeepicClock\18F2550BOLT.h
-                    print   0x003b22    program     extern C:\BeepicClock\18F2550BOLT.h
-              PrintString   0x003bb0    program     extern C:\BeepicClock\18F2550BOLT.h
-                   GetBot   0x003bec    program     extern C:\BeepicClock\18F2550BOLT.h
-                      fin   0x003c52    program     extern C:\BeepicClock\18F2550BOLT.h
-                      row   0x003c8e    program     extern C:\BeepicClock\18F2550BOLT.h
-                   SetBot   0x003cd4    program     extern C:\BeepicClock\18F2550BOLT.h
-                   WrtBot   0x003d28    program     extern C:\BeepicClock\18F2550BOLT.h
-              writeeeprom   0x003d60    program     extern C:\BeepicClock\18F2550BOLT.h
-               readeeprom   0x003dac    program     extern C:\BeepicClock\18F2550BOLT.h
-                 debounce   0x003dcc    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                debounce2   0x003e50    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                     main   0x003ed4    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
-            s_put_n_chars   0x00409e    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                 vfprintf   0x0040ca    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-              __tmplbl_85   0x0040f4    program     static                          
-              __tmplbl_44   0x0049a2    program     static                          
-              __tmplbl_43   0x0049bc    program     static                          
-                   __pa_0   0x0049de    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_1   0x0049e6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_2   0x0049f0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_3   0x0049fa    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_4   0x004a12    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_5   0x004a26    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_6   0x004a42    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_7   0x004a4c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_8   0x004a58    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                   __pa_9   0x004a7a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_10   0x004a9a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_11   0x004aa8    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_12   0x004abe    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_13   0x004ad8    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_14   0x004af0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_15   0x004b00    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_16   0x004b16    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_17   0x004b28    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_18   0x004b3a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_19   0x004b44    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_20   0x004b54    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_21   0x004b64    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-              __tmplbl_42   0x004b74    program     static                          
-                  __pa_22   0x004b74    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_23   0x004b80    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_24   0x004b8e    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_25   0x004b96    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_26   0x004ba0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_27   0x004baa    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_28   0x004bb2    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_29   0x004bc0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_30   0x004bdc    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_31   0x004bf6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_32   0x004c10    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_33   0x004c28    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_34   0x004c32    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_35   0x004c40    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_36   0x004c48    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_37   0x004c52    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_38   0x004c62    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_39   0x004c70    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_40   0x004c7c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_41   0x004c88    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_42   0x004c90    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_43   0x004c9a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_44   0x004ca0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_45   0x004caa    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  __pa_46   0x004cb6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                 I2C_Init   0x004cc0    program     extern C:\BeepicClock\my_i2c.c  
-                I2C_Start   0x004ce8    program     extern C:\BeepicClock\my_i2c.c  
-        I2C_RepeatedStart   0x004cf2    program     extern C:\BeepicClock\my_i2c.c  
-                 I2C_Stop   0x004cfc    program     extern C:\BeepicClock\my_i2c.c  
-                 I2C_Idle   0x004d06    program     extern C:\BeepicClock\my_i2c.c  
-                I2C_Close   0x004d1e    program     extern C:\BeepicClock\my_i2c.c  
-             I2C_ReadByte   0x004d22    program     extern C:\BeepicClock\my_i2c.c  
-            I2C_WriteByte   0x004d72    program     extern C:\BeepicClock\my_i2c.c  
-                  sprintf   0x004dbc    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
-                _do_cinit   0x004e68    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     test   0x004e82    program     static                          
-                copy_loop   0x004eda    program     static                          
-            copy_one_byte   0x004ee0    program     static                          
-             done_copying   0x004eee    program     static                          
-       ___return_lbl00002   0x004f04    program     static                          
-                     done   0x004f04    program     static                          
-                     putc   0x004f06    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
-                  FXM3232   0x004f8a    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
-       ___return_lbl00000   0x004ff8    program     static                          
-                   strlen   0x004ffa    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                    jLoop   0x00500a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                     jEnd   0x005014    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x005016    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x005034    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                   _2jEnd   0x00504a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                     jEnd   0x00504c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                 FXM1616S   0x005060    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-               TSIGN1616A   0x0050ac    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-                 FXD3232U   0x0050ba    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
-                     loop   0x0050c8    program     static                          
-                   _false   0x0050fc    program     static                          
-       ___return_lbl00000   0x005100    program     static                          
-                  isdigit   0x005102    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-                   jMatch   0x005122    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-                 jNoMatch   0x005124    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-              Delay1KTCYx   0x005126    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-                     D1Kx   0x005130    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-                    D1K_1   0x005132    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-        _D1KTCYXCODE_0010   0x005136    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-        _D1KTCYXCODE_0016   0x00513c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-            __zero_memory   0x005146    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-               zero_block   0x005154    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                   loop_h   0x005154    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                compare_l   0x00515c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                   loop_l   0x00515e    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                 _startup   0x005166    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     loop   0x005176    program     static                          
-       ___return_lbl00001   0x005180    program     static                          
-              _usart_putc   0x005182    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
-                     loop   0x005192    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
-                 FXD0808U   0x00519e    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808u.c
-                     loop   0x0051a6    program     static                          
-                  endloop   0x0051b4    program     static                          
-       ___return_lbl00000   0x0051b8    program     static                          
-              Delay10TCYx   0x0051ba    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                     D10x   0x0051c2    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000A   0x0051c4    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000C   0x0051c6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000E   0x0051c8    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                    D10_1   0x0051ca    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                 s_digits   0x0051d0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-               __string_0   0x0051e1    program     static C:\BeepicClock\ds3231.c  
-               _user_putc   0x0051e6    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\_user_putc.c
-                   __init   0x0051e8    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+           DS3231_GetHour   0x0027c0    program     extern C:\BeepicClock\ds3231.c  
+       DS3231_GetCalendar   0x0028b2    program     extern C:\BeepicClock\ds3231.c  
+   DS3231_Get_Temperature   0x0030e2    program     extern C:\BeepicClock\ds3231.c  
+             BCDToDecimal   0x003274    program     extern C:\BeepicClock\ds3231.c  
+             DecimalToBCD   0x00329e    program     extern C:\BeepicClock\ds3231.c  
+                 delay_ms   0x0032de    program     extern C:\BeepicClock\18F2550BOLT.h
+                  Set7Seg   0x003368    program     extern C:\BeepicClock\18F2550BOLT.h
+                init_bolt   0x00342c    program     extern C:\BeepicClock\18F2550BOLT.h
+                  microsw   0x00344a    program     extern C:\BeepicClock\18F2550BOLT.h
+                EnableLCD   0x003492    program     extern C:\BeepicClock\18F2550BOLT.h
+               EnableLCD2   0x0034b8    program     extern C:\BeepicClock\18F2550BOLT.h
+            LiquidCrystal   0x0034de    program     extern C:\BeepicClock\18F2550BOLT.h
+                     init   0x00355e    program     extern C:\BeepicClock\18F2550BOLT.h
+                    clear   0x003630    program     extern C:\BeepicClock\18F2550BOLT.h
+                     home   0x003648    program     extern C:\BeepicClock\18F2550BOLT.h
+                noDisplay   0x003660    program     extern C:\BeepicClock\18F2550BOLT.h
+                  display   0x00367e    program     extern C:\BeepicClock\18F2550BOLT.h
+                 noCursor   0x00369c    program     extern C:\BeepicClock\18F2550BOLT.h
+                   cursor   0x0036ba    program     extern C:\BeepicClock\18F2550BOLT.h
+                  noBlink   0x0036d8    program     extern C:\BeepicClock\18F2550BOLT.h
+                    blink   0x0036f6    program     extern C:\BeepicClock\18F2550BOLT.h
+        scrollDisplayLeft   0x003714    program     extern C:\BeepicClock\18F2550BOLT.h
+       scrollDisplayRight   0x003722    program     extern C:\BeepicClock\18F2550BOLT.h
+              leftToRight   0x003730    program     extern C:\BeepicClock\18F2550BOLT.h
+              rightToLeft   0x00374e    program     extern C:\BeepicClock\18F2550BOLT.h
+               autoscroll   0x00376c    program     extern C:\BeepicClock\18F2550BOLT.h
+             noAutoscroll   0x00378a    program     extern C:\BeepicClock\18F2550BOLT.h
+                setCursor   0x0037a8    program     extern C:\BeepicClock\18F2550BOLT.h
+            setRowOffsets   0x003886    program     extern C:\BeepicClock\18F2550BOLT.h
+                    begin   0x0038c6    program     extern C:\BeepicClock\18F2550BOLT.h
+                  command   0x003a9e    program     extern C:\BeepicClock\18F2550BOLT.h
+                    write   0x003aca    program     extern C:\BeepicClock\18F2550BOLT.h
+               createChar   0x003afe    program     extern C:\BeepicClock\18F2550BOLT.h
+                     send   0x003bb0    program     extern C:\BeepicClock\18F2550BOLT.h
+              pulseEnable   0x003c34    program     extern C:\BeepicClock\18F2550BOLT.h
+               write4bits   0x003c5a    program     extern C:\BeepicClock\18F2550BOLT.h
+               write8bits   0x003cf2    program     extern C:\BeepicClock\18F2550BOLT.h
+                   PutLCD   0x003d04    program     extern C:\BeepicClock\18F2550BOLT.h
+                    print   0x003d2e    program     extern C:\BeepicClock\18F2550BOLT.h
+              PrintString   0x003dbc    program     extern C:\BeepicClock\18F2550BOLT.h
+                   GetBot   0x003df8    program     extern C:\BeepicClock\18F2550BOLT.h
+                      fin   0x003e5e    program     extern C:\BeepicClock\18F2550BOLT.h
+                      row   0x003e9a    program     extern C:\BeepicClock\18F2550BOLT.h
+                   SetBot   0x003ee0    program     extern C:\BeepicClock\18F2550BOLT.h
+                   WrtBot   0x003f34    program     extern C:\BeepicClock\18F2550BOLT.h
+              writeeeprom   0x003f6c    program     extern C:\BeepicClock\18F2550BOLT.h
+               readeeprom   0x003fb8    program     extern C:\BeepicClock\18F2550BOLT.h
+                 debounce   0x003fd8    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                debounce2   0x00405c    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
+              displayDate   0x0040e0    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
+              displayTime   0x004116    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
+              displayTemp   0x004152    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                     main   0x00418a    program     extern C:\BeepicClock\C18-BeepicLEDClock.c
+            s_put_n_chars   0x0043ce    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                 vfprintf   0x0043fa    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+              __tmplbl_85   0x004424    program     static                          
+              __tmplbl_44   0x004cd2    program     static                          
+              __tmplbl_43   0x004cec    program     static                          
+                   __pa_0   0x004d0e    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_1   0x004d16    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_2   0x004d20    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_3   0x004d2a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_4   0x004d42    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_5   0x004d56    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_6   0x004d72    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_7   0x004d7c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_8   0x004d88    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                   __pa_9   0x004daa    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_10   0x004dca    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_11   0x004dd8    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_12   0x004dee    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_13   0x004e08    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_14   0x004e20    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_15   0x004e30    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_16   0x004e46    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_17   0x004e58    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_18   0x004e6a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_19   0x004e74    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_20   0x004e84    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_21   0x004e94    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_22   0x004ea4    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+              __tmplbl_42   0x004ea4    program     static                          
+                  __pa_23   0x004eb0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_24   0x004ebe    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_25   0x004ec6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_26   0x004ed0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_27   0x004eda    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_28   0x004ee2    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_29   0x004ef0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_30   0x004f0c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_31   0x004f26    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_32   0x004f40    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_33   0x004f58    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_34   0x004f62    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_35   0x004f70    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_36   0x004f78    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_37   0x004f82    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_38   0x004f92    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_39   0x004fa0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_40   0x004fac    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_41   0x004fb8    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_42   0x004fc0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_43   0x004fca    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_44   0x004fd0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_45   0x004fda    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __pa_46   0x004fe6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                 I2C_Init   0x004ff0    program     extern C:\BeepicClock\my_i2c.c  
+                I2C_Start   0x005018    program     extern C:\BeepicClock\my_i2c.c  
+        I2C_RepeatedStart   0x005022    program     extern C:\BeepicClock\my_i2c.c  
+                 I2C_Stop   0x00502c    program     extern C:\BeepicClock\my_i2c.c  
+                 I2C_Idle   0x005036    program     extern C:\BeepicClock\my_i2c.c  
+                I2C_Close   0x00504e    program     extern C:\BeepicClock\my_i2c.c  
+             I2C_ReadByte   0x005052    program     extern C:\BeepicClock\my_i2c.c  
+            I2C_WriteByte   0x0050a2    program     extern C:\BeepicClock\my_i2c.c  
+                  sprintf   0x0050ec    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
+                _do_cinit   0x005198    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x0051b2    program     static                          
+                copy_loop   0x00520a    program     static                          
+            copy_one_byte   0x005210    program     static                          
+             done_copying   0x00521e    program     static                          
+       ___return_lbl00002   0x005234    program     static                          
+                     done   0x005234    program     static                          
+                     putc   0x005236    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
+                  FXM3232   0x0052ba    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
+       ___return_lbl00000   0x005328    program     static                          
+                   strlen   0x00532a    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                    jLoop   0x00533a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                     jEnd   0x005344    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x005346    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x005364    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                   _2jEnd   0x00537a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x00537c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                 FXM1616S   0x005390    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+               TSIGN1616A   0x0053dc    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+                 FXD3232U   0x0053ea    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                     loop   0x0053f8    program     static                          
+                   _false   0x00542c    program     static                          
+       ___return_lbl00000   0x005430    program     static                          
+                  isdigit   0x005432    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                   jMatch   0x005452    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x005454    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+              Delay1KTCYx   0x005456    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+                     D1Kx   0x005460    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+                    D1K_1   0x005462    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+        _D1KTCYXCODE_0010   0x005466    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+        _D1KTCYXCODE_0016   0x00546c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+            __zero_memory   0x005476    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   loop_h   0x005484    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               zero_block   0x005484    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                compare_l   0x00548c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   loop_l   0x00548e    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 _startup   0x005496    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x0054a6    program     static                          
+       ___return_lbl00001   0x0054b0    program     static                          
+              _usart_putc   0x0054b2    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
+                     loop   0x0054c2    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
+                 FXD0808U   0x0054ce    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808u.c
+                     loop   0x0054d6    program     static                          
+                  endloop   0x0054e4    program     static                          
+       ___return_lbl00000   0x0054e8    program     static                          
+              Delay10TCYx   0x0054ea    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                     D10x   0x0054f2    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000A   0x0054f4    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x0054f6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x0054f8    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                    D10_1   0x0054fa    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                 s_digits   0x005500    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+               __string_0   0x005511    program     static C:\BeepicClock\ds3231.c  
+               _user_putc   0x005516    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\_user_putc.c
+                   __init   0x005518    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
                   __REMB3   0x000000       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                  __AARGB7   0x000000       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                   __REMB2   0x000001       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
@@ -826,29 +835,30 @@ Linker Map File - Created Sun Aug 17 15:16:18 2025
                       now   0x00009d       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
                       led   0x0000a1       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
                       rim   0x0000a2       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                hour_mode   0x0000ac       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                     time   0x0000ad       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                 _seconds   0x0000b7       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                 _minutes   0x0000b9       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                   _hours   0x0000bb       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                     _day   0x0000bd       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                    _date   0x0000bf       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                   _month   0x0000c1       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                    _year   0x0000c3       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                  _millis   0x0000c5       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                      key   0x0000c9       data     extern C:\BeepicClock\18F2550BOLT.h
-                      asc   0x0000d9       data     extern C:\BeepicClock\18F2550BOLT.h
-                 thisChar   0x0000e9       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                   Switch   0x0000eb       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                  Switch2   0x0000ec       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                     Mode   0x0000ed       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-            debounceDelay   0x0000ee       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
-                    state   0x0000ef       data     static C:\BeepicClock\C18-BeepicLEDClock.c
-                    state   0x0000f1       data     static C:\BeepicClock\C18-BeepicLEDClock.c
-                     prom   0x0000f3       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                curr_byte   0x0000f6       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-               curr_entry   0x0000f8       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 data_ptr   0x0000fa       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                hour_mode   0x0000b1       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                     time   0x0000b2       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                 _seconds   0x0000bc       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                 _minutes   0x0000be       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                   _hours   0x0000c0       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                     _day   0x0000c2       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                    _date   0x0000c4       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                   _month   0x0000c6       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                    _year   0x0000c8       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                  _millis   0x0000ca       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+              Temperature   0x0000ce       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                      key   0x0000d3       data     extern C:\BeepicClock\18F2550BOLT.h
+                      asc   0x0000e3       data     extern C:\BeepicClock\18F2550BOLT.h
+                 thisChar   0x0000f3       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                   Switch   0x0000f5       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                  Switch2   0x0000f6       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                     Mode   0x0000f7       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+            debounceDelay   0x0000f8       data     extern C:\BeepicClock\C18-BeepicLEDClock.c
+                    state   0x0000f9       data     static C:\BeepicClock\C18-BeepicLEDClock.c
+                    state   0x0000fb       data     static C:\BeepicClock\C18-BeepicLEDClock.c
+                     prom   0x000200       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                curr_byte   0x000203       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x000205       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x000207       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                 UFRMLbits   0x000f66       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     UFRML   0x000f66       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                      UFRM   0x000f66       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
@@ -856,20 +866,20 @@ Linker Map File - Created Sun Aug 17 15:16:18 2025
                     UFRMH   0x000f67       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                   UIRbits   0x000f68       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                       UIR   0x000f68       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                      UIE   0x000f69       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                   UIEbits   0x000f69       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                      UIE   0x000f69       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                      UEIR   0x000f6a       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  UEIRbits   0x000f6a       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                     UEIE   0x000f6b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  UEIEbits   0x000f6b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEIE   0x000f6b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                 USTATbits   0x000f6c       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     USTAT   0x000f6c       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  UCONbits   0x000f6d       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                      UCON   0x000f6d       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     UADDR   0x000f6e       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                 UADDRbits   0x000f6e       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                     UCFG   0x000f6f       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  UCFGbits   0x000f6f       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UCFG   0x000f6f       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                      UEP0   0x000f70       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  UEP0bits   0x000f70       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                      UEP1   0x000f71       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
@@ -878,24 +888,24 @@ Linker Map File - Created Sun Aug 17 15:16:18 2025
                  UEP2bits   0x000f72       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                      UEP3   0x000f73       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  UEP3bits   0x000f73       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                 UEP4bits   0x000f74       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                      UEP4   0x000f74       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP4bits   0x000f74       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                      UEP5   0x000f75       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  UEP5bits   0x000f75       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                     UEP6   0x000f76       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  UEP6bits   0x000f76       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                     UEP7   0x000f77       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP6   0x000f76       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  UEP7bits   0x000f77       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                 UEP8bits   0x000f78       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP7   0x000f77       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                      UEP8   0x000f78       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP8bits   0x000f78       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                      UEP9   0x000f79       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  UEP9bits   0x000f79       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                UEP10bits   0x000f7a       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     UEP10   0x000f7a       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                    UEP11   0x000f7b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UEP10bits   0x000f7a       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                 UEP11bits   0x000f7b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                UEP12bits   0x000f7c       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UEP11   0x000f7b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     UEP12   0x000f7c       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UEP12bits   0x000f7c       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     UEP13   0x000f7d       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                 UEP13bits   0x000f7d       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     UEP14   0x000f7e       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
@@ -910,47 +920,47 @@ Linker Map File - Created Sun Aug 17 15:16:18 2025
                 PORTCbits   0x000f82       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     PORTE   0x000f84       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                 PORTEbits   0x000f84       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                 LATAbits   0x000f89       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                      LATA   0x000f89       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 LATAbits   0x000f89       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                      LATB   0x000f8a       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  LATBbits   0x000f8a       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                      LATC   0x000f8b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  LATCbits   0x000f8b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  DDRAbits   0x000f92       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     DDRA   0x000f92       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                 TRISAbits   0x000f92       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     TRISA   0x000f92       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                     DDRA   0x000f92       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                 DDRBbits   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                     DDRB   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                 TRISBbits   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     TRISB   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                 DDRCbits   0x000f94       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                     DDRC   0x000f94       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     DDRB   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 DDRBbits   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                 TRISCbits   0x000f94       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     TRISC   0x000f94       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-              OSCTUNEbits   0x000f9b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     DDRC   0x000f94       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 DDRCbits   0x000f94       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                   OSCTUNE   0x000f9b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                     PIE1   0x000f9d       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              OSCTUNEbits   0x000f9b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  PIE1bits   0x000f9d       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                     PIR1   0x000f9e       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     PIE1   0x000f9d       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  PIR1bits   0x000f9e       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                 IPR1bits   0x000f9f       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     PIR1   0x000f9e       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                      IPR1   0x000f9f       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                     PIE2   0x000fa0       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 IPR1bits   0x000f9f       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  PIE2bits   0x000fa0       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                     PIR2   0x000fa1       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     PIE2   0x000fa0       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  PIR2bits   0x000fa1       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     PIR2   0x000fa1       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                      IPR2   0x000fa2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  IPR2bits   0x000fa2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-               EECON1bits   0x000fa6       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                    EECON1   0x000fa6       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               EECON1bits   0x000fa6       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                    EECON2   0x000fa7       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                    EEDATA   0x000fa8       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     EEADR   0x000fa9       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                    RCSTA   0x000fab       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                 RCSTAbits   0x000fab       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                    TXSTA   0x000fac       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    RCSTA   0x000fab       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                 TXSTAbits   0x000fac       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TXSTA   0x000fac       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     TXREG   0x000fad       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     RCREG   0x000fae       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     SPBRG   0x000faf       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
@@ -961,14 +971,14 @@ Linker Map File - Created Sun Aug 17 15:16:18 2025
                     TMR3H   0x000fb3       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                     CMCON   0x000fb4       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                 CMCONbits   0x000fb4       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-               CVRCONbits   0x000fb5       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                    CVRCON   0x000fb5       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               CVRCONbits   0x000fb5       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
               ECCP1ASbits   0x000fb6       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                   ECCP1AS   0x000fb6       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-                   CCP1AS   0x000fb6       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                CCP1ASbits   0x000fb6       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
-             ECCP1DELbits   0x000fb7       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   CCP1AS   0x000fb6       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                  ECCP1DEL   0x000fb7       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+             ECCP1DELbits   0x000fb7       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
               CCP1DELbits   0x000fb7       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                   CCP1DEL   0x000fb7       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
                   BAUDCON   0x000fb8       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
